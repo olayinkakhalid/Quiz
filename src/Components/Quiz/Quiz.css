@@ -1,7 +1,5 @@
 .container {
     width: 450px;
-    margin: auto;
-    margin-top: 20px;
     background-color: white;
     border-radius: 5px;
     color: #262626;
@@ -9,7 +7,6 @@
     flex-direction: column;
     gap: 10px;
     padding: 20px 50px;
-    margin-bottom: 50px;
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -75,15 +72,15 @@
     }
 }
 
-@media (max-width: 484px) {
+@media (max-width: 481px) {
     .container {
         width: 300px;
     }
 }
 
-@media (max-width: 431px) {
+@media (max-width: 478px) {
     .container {
-        width: 200px;
+        width: 300px;
     }
 
     .container button {
@@ -111,7 +108,7 @@
 
 @media (max-width: 324px) {
     .container {
-        width: 200px;
+        width: 300px;
     }
 
     .container h1 {
@@ -134,9 +131,9 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 291px) {
     .container {
-        width: 150px;
+        width: 260px;
     }
 
     .container h3 {
@@ -145,9 +142,9 @@
     }
 }
 
-@media (max-width: 260px) {
+@media (max-width: 258px) {
     .container {
-        width: 120px;
+        width: 240px;
     }
 
     .container h3 {
