@@ -1,0 +1,169 @@
+.container {
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: 1px solid #686868;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.container button {
+    margin: auto;
+    width: 250px;
+    height: 55px;
+    border: none;
+    background: #553F9A;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container button:hover {
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct {
+    background: #DFFFF2;
+    border-color: #00D397;
+}
+
+.container .wrong {
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+}
+
+
+@media (max-width: 570px) {
+    .container {
+        width: 360px;
+    }
+}
+
+@media (max-width: 484px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media (max-width: 431px) {
+    .container {
+        width: 200px;
+    }
+
+    .container button {
+        width: 100px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .container ul li {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+        font-weight: 500;
+        width: 230px;
+    }
+
+    .container .index {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 324px) {
+    .container {
+        width: 200px;
+    }
+
+    .container h1 {
+        font-size: 23px;
+    }
+
+    .container ul li {
+        height: 40px;
+    }
+
+    .container h3 {
+        font-size: 15px;
+        width: 210px;
+    }
+
+    .container button {
+        height: 35px;
+        margin-top: -8px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 150px;
+    }
+
+    .container h3 {
+        font-size: 17px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 260px) {
+    .container {
+        width: 120px;
+    }
+
+    .container h3 {
+        font-size: 15px;
+        width: 130px;
+    }
+
+    .container ul li {
+        height: 40px;
+    } 
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .container button {
+        height: 35px;
+        margin-top: -8px;
+    }
+}
